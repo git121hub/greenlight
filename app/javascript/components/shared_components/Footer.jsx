@@ -31,8 +31,8 @@ export default function Footer() {
   return (
     <footer id="footer" className="footer background-whitesmoke text-center">
       <Container id="footer-container" className="py-3">
-        <a href="https://docs.bigbluebutton.org/greenlight/v3/install" target="_blank" rel="noreferrer">Greenlight</a>
-        { isAdmin && <span className="text-muted"> {env?.VERSION_TAG} </span> }
+        <a href="https://vdo.click/" target="_blank" rel="noreferrer">Powered by VDO.CLICK v2</a>
+{/*         { isAdmin && <span className="text-muted"> {env?.VERSION_TAG} </span> }
         { links?.Terms
           && (
             <a className="ps-3" href={links?.Terms} target="_blank" rel="noreferrer">
@@ -44,7 +44,7 @@ export default function Footer() {
             <a className="ps-3" href={links?.PrivacyPolicy} target="_blank" rel="noreferrer">
               { t('admin.site_settings.administration.privacy_policy') }
             </a>
-          )}
+          )} */}
       </Container>
     </footer>
   );
